@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/Users/bhuvzzs/Desktop/L5_53_income-tax-calculator/./analysis-venv/bin/pylint", line 8, in <module>
+    sys.exit(run_pylint())
+             ^^^^^^^^^^^^
+  File "/Users/bhuvzzs/Desktop/L5_53_income-tax-calculator/analysis-venv/lib/python3.12/site-packages/pylint/__init__.py", line 31, in run_pylint
+    from pylint.lint import Run as PylintRun
+  File "/Users/bhuvzzs/Desktop/L5_53_income-tax-calculator/analysis-venv/lib/python3.12/site-packages/pylint/lint/__init__.py", line 23, in <module>
+    from pylint.lint.parallel import check_parallel
+  File "/Users/bhuvzzs/Desktop/L5_53_income-tax-calculator/analysis-venv/lib/python3.12/site-packages/pylint/lint/parallel.py", line 12, in <module>
+    from pylint import reporters
+  File "/Users/bhuvzzs/Desktop/L5_53_income-tax-calculator/analysis-venv/lib/python3.12/site-packages/pylint/reporters/__init__.py", line 16, in <module>
+    from pylint.reporters.multi_reporter import MultiReporter
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1091, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1191, in get_data
+KeyboardInterrupt
